@@ -1,0 +1,1452 @@
+{
+  "departments": [
+    {
+      "id": "d1",
+      "name": "Computer Science & Engineering",
+      "code": "CSE",
+      "hod": "Dr. Ramesh Kumar",
+      "facultyCount": 12,
+      "studentCount": 240,
+      "status": "Active",
+      "description": "Premier department for computing education"
+    },
+    {
+      "id": "d2",
+      "name": "Electronics & Communication",
+      "code": "ECE",
+      "hod": "Dr. Priya Sharma",
+      "facultyCount": 10,
+      "studentCount": 200,
+      "status": "Active",
+      "description": "Focus on electronics and communication systems"
+    },
+    {
+      "id": "d3",
+      "name": "Mechanical Engineering",
+      "code": "ME",
+      "hod": "Dr. Suresh Patel",
+      "facultyCount": 9,
+      "studentCount": 180,
+      "status": "Active",
+      "description": "Core engineering discipline"
+    },
+    {
+      "id": "d4",
+      "name": "Civil Engineering",
+      "code": "CE",
+      "hod": "Dr. Anita Desai",
+      "facultyCount": 8,
+      "studentCount": 150,
+      "status": "Active",
+      "description": "Infrastructure and construction focus"
+    },
+    {
+      "id": "d5",
+      "name": "Electrical Engineering",
+      "code": "EE",
+      "hod": "Dr. Vikram Singh",
+      "facultyCount": 7,
+      "studentCount": 140,
+      "status": "Active",
+      "description": "Power systems and electrical design"
+    }
+  ],
+  "courses": [
+    {
+      "id": "c1",
+      "name": "B.Tech Computer Science",
+      "code": "BT-CSE",
+      "department": "CSE",
+      "duration": "4 Years",
+      "totalSeats": 60,
+      "status": "Active"
+    },
+    {
+      "id": "c2",
+      "name": "B.Tech Electronics",
+      "code": "BT-ECE",
+      "department": "ECE",
+      "duration": "4 Years",
+      "totalSeats": 60,
+      "status": "Active"
+    },
+    {
+      "id": "c3",
+      "name": "B.Tech Mechanical",
+      "code": "BT-ME",
+      "department": "ME",
+      "duration": "4 Years",
+      "totalSeats": 60,
+      "status": "Active"
+    },
+    {
+      "id": "c4",
+      "name": "B.Tech Civil",
+      "code": "BT-CE",
+      "department": "CE",
+      "duration": "4 Years",
+      "totalSeats": 60,
+      "status": "Active"
+    },
+    {
+      "id": "c5",
+      "name": "M.Tech Computer Science",
+      "code": "MT-CSE",
+      "department": "CSE",
+      "duration": "2 Years",
+      "totalSeats": 24,
+      "status": "Active"
+    },
+    {
+      "id": "c6",
+      "name": "M.Tech VLSI Design",
+      "code": "MT-VLSI",
+      "department": "ECE",
+      "duration": "2 Years",
+      "totalSeats": 18,
+      "status": "Active"
+    },
+    {
+      "id": "c7",
+      "name": "MBA",
+      "code": "MBA",
+      "department": "CSE",
+      "duration": "2 Years",
+      "totalSeats": 60,
+      "status": "Active"
+    },
+    {
+      "id": "c8",
+      "name": "B.Tech Electrical",
+      "code": "BT-EE",
+      "department": "EE",
+      "duration": "4 Years",
+      "totalSeats": 60,
+      "status": "Active"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "s1",
+      "name": "Data Structures & Algorithms",
+      "code": "CS201",
+      "department": "CSE",
+      "semester": "3",
+      "credits": 4,
+      "type": "Core",
+      "status": "Active"
+    },
+    {
+      "id": "s2",
+      "name": "Database Management Systems",
+      "code": "CS301",
+      "department": "CSE",
+      "semester": "4",
+      "credits": 4,
+      "type": "Core",
+      "status": "Active"
+    },
+    {
+      "id": "s3",
+      "name": "Operating Systems",
+      "code": "CS401",
+      "department": "CSE",
+      "semester": "5",
+      "credits": 4,
+      "type": "Core",
+      "status": "Active"
+    },
+    {
+      "id": "s4",
+      "name": "Computer Networks",
+      "code": "CS501",
+      "department": "CSE",
+      "semester": "6",
+      "credits": 3,
+      "type": "Core",
+      "status": "Active"
+    },
+    {
+      "id": "s5",
+      "name": "Machine Learning",
+      "code": "CS601",
+      "department": "CSE",
+      "semester": "7",
+      "credits": 3,
+      "type": "Elective",
+      "status": "Active"
+    },
+    {
+      "id": "s6",
+      "name": "Signal Processing",
+      "code": "EC301",
+      "department": "ECE",
+      "semester": "4",
+      "credits": 4,
+      "type": "Core",
+      "status": "Active"
+    },
+    {
+      "id": "s7",
+      "name": "Thermodynamics",
+      "code": "ME201",
+      "department": "ME",
+      "semester": "3",
+      "credits": 4,
+      "type": "Core",
+      "status": "Active"
+    },
+    {
+      "id": "s8",
+      "name": "Web Technologies",
+      "code": "CS502",
+      "department": "CSE",
+      "semester": "6",
+      "credits": 3,
+      "type": "Elective",
+      "status": "Active"
+    },
+    {
+      "id": "s9",
+      "name": "Software Engineering",
+      "code": "CS402",
+      "department": "CSE",
+      "semester": "5",
+      "credits": 3,
+      "type": "Core",
+      "status": "Active"
+    },
+    {
+      "id": "s10",
+      "name": "Cloud Computing",
+      "code": "CS701",
+      "department": "CSE",
+      "semester": "8",
+      "credits": 3,
+      "type": "Elective",
+      "status": "Active"
+    }
+  ],
+  "semesters": [
+    {
+      "id": "sem1",
+      "name": "Semester 1",
+      "code": "SEM1",
+      "academicYear": "2024-25",
+      "startDate": "2024-08-01",
+      "endDate": "2024-12-15",
+      "status": "Completed"
+    },
+    {
+      "id": "sem2",
+      "name": "Semester 2",
+      "code": "SEM2",
+      "academicYear": "2024-25",
+      "startDate": "2025-01-05",
+      "endDate": "2025-05-20",
+      "status": "Active"
+    },
+    {
+      "id": "sem3",
+      "name": "Semester 3",
+      "code": "SEM3",
+      "academicYear": "2025-26",
+      "startDate": "2025-08-01",
+      "endDate": "2025-12-15",
+      "status": "Upcoming"
+    }
+  ],
+  "exams": [
+    {
+      "id": "e1",
+      "name": "Mid Semester Examination",
+      "code": "MID-SEM2",
+      "semester": "Semester 2",
+      "startDate": "2025-03-10",
+      "endDate": "2025-03-20",
+      "type": "Mid Sem",
+      "status": "Completed"
+    },
+    {
+      "id": "e2",
+      "name": "End Semester Examination",
+      "code": "END-SEM2",
+      "semester": "Semester 2",
+      "startDate": "2025-05-05",
+      "endDate": "2025-05-18",
+      "type": "End Sem",
+      "status": "Upcoming"
+    },
+    {
+      "id": "e3",
+      "name": "Internal Assessment 1",
+      "code": "IA1-SEM2",
+      "semester": "Semester 2",
+      "startDate": "2025-02-01",
+      "endDate": "2025-02-05",
+      "type": "Internal",
+      "status": "Completed"
+    },
+    {
+      "id": "e4",
+      "name": "Internal Assessment 2",
+      "code": "IA2-SEM2",
+      "semester": "Semester 2",
+      "startDate": "2025-04-10",
+      "endDate": "2025-04-15",
+      "type": "Internal",
+      "status": "Active"
+    }
+  ],
+  "students": [
+    {
+      "id": "st1",
+      "name": "Aarav Mehta",
+      "email": "aarav.m@college.edu",
+      "department": "CSE",
+      "semester": "6",
+      "rollNo": "CSE2021-001",
+      "phone": "9876543210",
+      "dob": "2003-05-15",
+      "gender": "Male",
+      "status": "Active",
+      "feeStatus": "Paid"
+    },
+    {
+      "id": "st2",
+      "name": "Diya Sharma",
+      "email": "diya.s@college.edu",
+      "department": "CSE",
+      "semester": "4",
+      "rollNo": "CSE2022-015",
+      "phone": "9876543211",
+      "dob": "2004-02-20",
+      "gender": "Female",
+      "status": "Active",
+      "feeStatus": "Paid"
+    },
+    {
+      "id": "st3",
+      "name": "Rohan Patel",
+      "email": "rohan.p@college.edu",
+      "department": "ECE",
+      "semester": "6",
+      "rollNo": "ECE2021-008",
+      "phone": "9876543212",
+      "dob": "2003-08-10",
+      "gender": "Male",
+      "status": "Active",
+      "feeStatus": "Pending"
+    },
+    {
+      "id": "st4",
+      "name": "Ananya Reddy",
+      "email": "ananya.r@college.edu",
+      "department": "ME",
+      "semester": "4",
+      "rollNo": "ME2022-022",
+      "phone": "9876543213",
+      "dob": "2004-11-05",
+      "gender": "Female",
+      "status": "Active",
+      "feeStatus": "Paid"
+    },
+    {
+      "id": "st5",
+      "name": "Vikram Joshi",
+      "email": "vikram.j@college.edu",
+      "department": "CSE",
+      "semester": "8",
+      "rollNo": "CSE2020-003",
+      "phone": "9876543214",
+      "dob": "2002-03-25",
+      "gender": "Male",
+      "status": "Active",
+      "feeStatus": "Paid"
+    },
+    {
+      "id": "st6",
+      "name": "Ishita Gupta",
+      "email": "ishita.g@college.edu",
+      "department": "CE",
+      "semester": "2",
+      "rollNo": "CE2024-011",
+      "phone": "9876543215",
+      "dob": "2005-07-12",
+      "gender": "Female",
+      "status": "Active",
+      "feeStatus": "Partial"
+    },
+    {
+      "id": "st7",
+      "name": "Arjun Nair",
+      "email": "arjun.n@college.edu",
+      "department": "EE",
+      "semester": "6",
+      "rollNo": "EE2021-005",
+      "phone": "9876543216",
+      "dob": "2003-09-30",
+      "gender": "Male",
+      "status": "Active",
+      "feeStatus": "Paid"
+    },
+    {
+      "id": "st8",
+      "name": "Kavya Iyer",
+      "email": "kavya.i@college.edu",
+      "department": "CSE",
+      "semester": "4",
+      "rollNo": "CSE2022-030",
+      "phone": "9876543217",
+      "dob": "2004-01-18",
+      "gender": "Female",
+      "status": "Inactive",
+      "feeStatus": "Overdue"
+    },
+    {
+      "id": "st9",
+      "name": "Rahul Verma",
+      "email": "rahul.v@college.edu",
+      "department": "ECE",
+      "semester": "2",
+      "rollNo": "ECE2024-007",
+      "phone": "9876543218",
+      "dob": "2005-04-22",
+      "gender": "Male",
+      "status": "Active",
+      "feeStatus": "Paid"
+    },
+    {
+      "id": "st10",
+      "name": "Sneha Kulkarni",
+      "email": "sneha.k@college.edu",
+      "department": "ME",
+      "semester": "8",
+      "rollNo": "ME2020-002",
+      "phone": "9876543219",
+      "dob": "2002-06-08",
+      "gender": "Female",
+      "status": "Active",
+      "feeStatus": "Paid"
+    },
+    {
+      "id": "st11",
+      "name": "Aditya Singh",
+      "email": "aditya.s@college.edu",
+      "department": "CSE",
+      "semester": "2",
+      "rollNo": "CSE2024-019",
+      "phone": "9876543220",
+      "dob": "2005-10-14",
+      "gender": "Male",
+      "status": "Active",
+      "feeStatus": "Pending"
+    },
+    {
+      "id": "st12",
+      "name": "Pooja Rao",
+      "email": "pooja.r@college.edu",
+      "department": "CE",
+      "semester": "6",
+      "rollNo": "CE2021-014",
+      "phone": "9876543221",
+      "dob": "2003-12-03",
+      "gender": "Female",
+      "status": "Active",
+      "feeStatus": "Paid"
+    }
+  ],
+  "faculty": [
+    {
+      "id": "f1",
+      "name": "Dr. Ramesh Kumar",
+      "email": "ramesh.k@college.edu",
+      "department": "CSE",
+      "designation": "Professor & HOD",
+      "qualification": "Ph.D. CS",
+      "phone": "9800000001",
+      "joinDate": "2010-07-01",
+      "status": "Active"
+    },
+    {
+      "id": "f2",
+      "name": "Dr. Priya Sharma",
+      "email": "priya.s@college.edu",
+      "department": "ECE",
+      "designation": "Professor & HOD",
+      "qualification": "Ph.D. ECE",
+      "phone": "9800000002",
+      "joinDate": "2012-07-01",
+      "status": "Active"
+    },
+    {
+      "id": "f3",
+      "name": "Mr. Amit Verma",
+      "email": "amit.v@college.edu",
+      "department": "CSE",
+      "designation": "Associate Professor",
+      "qualification": "M.Tech CS",
+      "phone": "9800000003",
+      "joinDate": "2015-07-01",
+      "status": "Active"
+    },
+    {
+      "id": "f4",
+      "name": "Ms. Neha Agarwal",
+      "email": "neha.a@college.edu",
+      "department": "CSE",
+      "designation": "Assistant Professor",
+      "qualification": "M.Tech CS",
+      "phone": "9800000004",
+      "joinDate": "2019-07-01",
+      "status": "Active"
+    },
+    {
+      "id": "f5",
+      "name": "Dr. Suresh Patel",
+      "email": "suresh.p@college.edu",
+      "department": "ME",
+      "designation": "Professor & HOD",
+      "qualification": "Ph.D. ME",
+      "phone": "9800000005",
+      "joinDate": "2008-07-01",
+      "status": "Active"
+    },
+    {
+      "id": "f6",
+      "name": "Mr. Rajesh Tiwari",
+      "email": "rajesh.t@college.edu",
+      "department": "ECE",
+      "designation": "Associate Professor",
+      "qualification": "M.Tech ECE",
+      "phone": "9800000006",
+      "joinDate": "2016-07-01",
+      "status": "On Leave"
+    },
+    {
+      "id": "f7",
+      "name": "Dr. Anita Desai",
+      "email": "anita.d@college.edu",
+      "department": "CE",
+      "designation": "Professor & HOD",
+      "qualification": "Ph.D. CE",
+      "phone": "9800000007",
+      "joinDate": "2009-07-01",
+      "status": "Active"
+    },
+    {
+      "id": "f8",
+      "name": "Ms. Kavita Reddy",
+      "email": "kavita.r@college.edu",
+      "department": "CSE",
+      "designation": "Assistant Professor",
+      "qualification": "M.Tech AI",
+      "phone": "9800000008",
+      "joinDate": "2021-07-01",
+      "status": "Active"
+    },
+    {
+      "id": "f9",
+      "name": "Dr. Vikram Singh",
+      "email": "vikram.s@college.edu",
+      "department": "EE",
+      "designation": "Professor & HOD",
+      "qualification": "Ph.D. EE",
+      "phone": "9800000009",
+      "joinDate": "2011-07-01",
+      "status": "Active"
+    },
+    {
+      "id": "f10",
+      "name": "Mr. Deepak Mishra",
+      "email": "deepak.m@college.edu",
+      "department": "ME",
+      "designation": "Assistant Professor",
+      "qualification": "M.Tech ME",
+      "phone": "9800000010",
+      "joinDate": "2020-07-01",
+      "status": "Active"
+    }
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "name": "System Admin",
+      "email": "admin@collegeerp.com",
+      "role": "Admin",
+      "status": "Active",
+      "lastLogin": "2025-04-14 09:30:00"
+    },
+    {
+      "id": "u2",
+      "name": "Dr. Anand Sharma",
+      "email": "principal@college.edu",
+      "role": "Principal",
+      "status": "Active",
+      "lastLogin": "2025-04-14 08:00:00"
+    },
+    {
+      "id": "u3",
+      "name": "Dr. Ramesh Kumar",
+      "email": "ramesh.k@college.edu",
+      "role": "HOD",
+      "status": "Active",
+      "lastLogin": "2025-04-14 08:45:00"
+    },
+    {
+      "id": "u4",
+      "name": "Mr. Amit Verma",
+      "email": "amit.v@college.edu",
+      "role": "Faculty",
+      "status": "Active",
+      "lastLogin": "2025-04-13 14:20:00"
+    },
+    {
+      "id": "u5",
+      "name": "Aarav Mehta",
+      "email": "aarav.m@college.edu",
+      "role": "Student",
+      "status": "Active",
+      "lastLogin": "2025-04-14 10:15:00"
+    },
+    {
+      "id": "u6",
+      "name": "Diya Sharma",
+      "email": "diya.s@college.edu",
+      "role": "Student",
+      "status": "Active",
+      "lastLogin": "2025-04-13 16:30:00"
+    },
+    {
+      "id": "u7",
+      "name": "Dr. Priya Sharma",
+      "email": "priya.s@college.edu",
+      "role": "HOD",
+      "status": "Active",
+      "lastLogin": "2025-04-14 07:50:00"
+    },
+    {
+      "id": "u8",
+      "name": "Ms. Neha Agarwal",
+      "email": "neha.a@college.edu",
+      "role": "Faculty",
+      "status": "Active",
+      "lastLogin": "2025-04-13 11:30:00"
+    },
+    {
+      "id": "u9",
+      "name": "Rohan Patel",
+      "email": "rohan.p@college.edu",
+      "role": "Student",
+      "status": "Active",
+      "lastLogin": "2025-04-12 09:00:00"
+    }
+  ],
+  "roles": [
+    {
+      "id": "r1",
+      "name": "Admin",
+      "description": "Full system access with all permissions",
+      "permissions": "All",
+      "userCount": 1,
+      "status": "Active"
+    },
+    {
+      "id": "r2",
+      "name": "Principal",
+      "description": "Institution-level oversight and approvals",
+      "permissions": "View All, Reports, HOD Auth, Settings View",
+      "userCount": 1,
+      "status": "Active"
+    },
+    {
+      "id": "r3",
+      "name": "HOD",
+      "description": "Department level management and authorization",
+      "permissions": "Department Management, HOD Auth, View Reports",
+      "userCount": 2,
+      "status": "Active"
+    },
+    {
+      "id": "r4",
+      "name": "Faculty",
+      "description": "Academic management for assigned subjects",
+      "permissions": "Attendance, Marks, View Students",
+      "userCount": 6,
+      "status": "Active"
+    },
+    {
+      "id": "r5",
+      "name": "Student",
+      "description": "View own academic records and fees",
+      "permissions": "View Own Data, View Results, View Attendance",
+      "userCount": 50,
+      "status": "Active"
+    },
+    {
+      "id": "r6",
+      "name": "Accountant",
+      "description": "Fee management and financial reports",
+      "permissions": "Fees, Reports, Students View",
+      "userCount": 2,
+      "status": "Active"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "at1",
+      "student": "Aarav Mehta",
+      "rollNo": "CSE2021-001",
+      "subject": "Computer Networks",
+      "date": "2025-04-14",
+      "status": "Present",
+      "markedBy": "Mr. Amit Verma"
+    },
+    {
+      "id": "at2",
+      "student": "Diya Sharma",
+      "rollNo": "CSE2022-015",
+      "subject": "Database Management Systems",
+      "date": "2025-04-14",
+      "status": "Present",
+      "markedBy": "Ms. Neha Agarwal"
+    },
+    {
+      "id": "at3",
+      "student": "Rohan Patel",
+      "rollNo": "ECE2021-008",
+      "subject": "Signal Processing",
+      "date": "2025-04-14",
+      "status": "Absent",
+      "markedBy": "Mr. Rajesh Tiwari"
+    },
+    {
+      "id": "at4",
+      "student": "Ananya Reddy",
+      "rollNo": "ME2022-022",
+      "subject": "Thermodynamics",
+      "date": "2025-04-14",
+      "status": "Present",
+      "markedBy": "Mr. Deepak Mishra"
+    },
+    {
+      "id": "at5",
+      "student": "Vikram Joshi",
+      "rollNo": "CSE2020-003",
+      "subject": "Cloud Computing",
+      "date": "2025-04-14",
+      "status": "Late",
+      "markedBy": "Dr. Ramesh Kumar"
+    },
+    {
+      "id": "at6",
+      "student": "Kavya Iyer",
+      "rollNo": "CSE2022-030",
+      "subject": "Database Management Systems",
+      "date": "2025-04-14",
+      "status": "Absent",
+      "markedBy": "Ms. Neha Agarwal"
+    },
+    {
+      "id": "at7",
+      "student": "Aditya Singh",
+      "rollNo": "CSE2024-019",
+      "subject": "Data Structures & Algorithms",
+      "date": "2025-04-14",
+      "status": "Present",
+      "markedBy": "Ms. Kavita Reddy"
+    },
+    {
+      "id": "at8",
+      "student": "Aarav Mehta",
+      "rollNo": "CSE2021-001",
+      "subject": "Software Engineering",
+      "date": "2025-04-13",
+      "status": "Present",
+      "markedBy": "Mr. Amit Verma"
+    },
+    {
+      "id": "at9",
+      "student": "Diya Sharma",
+      "rollNo": "CSE2022-015",
+      "subject": "Data Structures & Algorithms",
+      "date": "2025-04-13",
+      "status": "Present",
+      "markedBy": "Ms. Kavita Reddy"
+    },
+    {
+      "id": "at10",
+      "student": "Rahul Verma",
+      "rollNo": "ECE2024-007",
+      "subject": "Signal Processing",
+      "date": "2025-04-13",
+      "status": "Present",
+      "markedBy": "Mr. Rajesh Tiwari"
+    }
+  ],
+  "marks": [
+    {
+      "id": "m1",
+      "student": "Aarav Mehta",
+      "rollNo": "CSE2021-001",
+      "subject": "Computer Networks",
+      "exam": "Mid Semester",
+      "internal": 18,
+      "external": 35,
+      "total": 53,
+      "maxMarks": 50,
+      "grade": "O"
+    },
+    {
+      "id": "m2",
+      "student": "Diya Sharma",
+      "rollNo": "CSE2022-015",
+      "subject": "Database Management Systems",
+      "exam": "Mid Semester",
+      "internal": 16,
+      "external": 32,
+      "total": 48,
+      "maxMarks": 50,
+      "grade": "A+"
+    },
+    {
+      "id": "m3",
+      "student": "Rohan Patel",
+      "rollNo": "ECE2021-008",
+      "subject": "Signal Processing",
+      "exam": "Mid Semester",
+      "internal": 14,
+      "external": 28,
+      "total": 42,
+      "maxMarks": 50,
+      "grade": "A"
+    },
+    {
+      "id": "m4",
+      "student": "Ananya Reddy",
+      "rollNo": "ME2022-022",
+      "subject": "Thermodynamics",
+      "exam": "Mid Semester",
+      "internal": 17,
+      "external": 33,
+      "total": 50,
+      "maxMarks": 50,
+      "grade": "O"
+    },
+    {
+      "id": "m5",
+      "student": "Vikram Joshi",
+      "rollNo": "CSE2020-003",
+      "subject": "Cloud Computing",
+      "exam": "Mid Semester",
+      "internal": 15,
+      "external": 30,
+      "total": 45,
+      "maxMarks": 50,
+      "grade": "A+"
+    },
+    {
+      "id": "m6",
+      "student": "Aarav Mehta",
+      "rollNo": "CSE2021-001",
+      "subject": "Software Engineering",
+      "exam": "Mid Semester",
+      "internal": 19,
+      "external": 37,
+      "total": 56,
+      "maxMarks": 50,
+      "grade": "O"
+    },
+    {
+      "id": "m7",
+      "student": "Kavya Iyer",
+      "rollNo": "CSE2022-030",
+      "subject": "Database Management Systems",
+      "exam": "Mid Semester",
+      "internal": 10,
+      "external": 22,
+      "total": 32,
+      "maxMarks": 50,
+      "grade": "B+"
+    },
+    {
+      "id": "m8",
+      "student": "Aditya Singh",
+      "rollNo": "CSE2024-019",
+      "subject": "Data Structures & Algorithms",
+      "exam": "Internal Assessment 1",
+      "internal": 20,
+      "external": 0,
+      "total": 20,
+      "maxMarks": 25,
+      "grade": "A"
+    }
+  ],
+  "results": [
+    {
+      "id": "res1",
+      "student": "Aarav Mehta",
+      "rollNo": "CSE2021-001",
+      "semester": "Semester 5",
+      "sgpa": 9.2,
+      "totalCredits": 22,
+      "status": "Passed",
+      "year": "2024"
+    },
+    {
+      "id": "res2",
+      "student": "Diya Sharma",
+      "rollNo": "CSE2022-015",
+      "semester": "Semester 3",
+      "sgpa": 8.8,
+      "totalCredits": 21,
+      "status": "Passed",
+      "year": "2024"
+    },
+    {
+      "id": "res3",
+      "student": "Rohan Patel",
+      "rollNo": "ECE2021-008",
+      "semester": "Semester 5",
+      "sgpa": 7.5,
+      "totalCredits": 22,
+      "status": "Passed",
+      "year": "2024"
+    },
+    {
+      "id": "res4",
+      "student": "Ananya Reddy",
+      "rollNo": "ME2022-022",
+      "semester": "Semester 3",
+      "sgpa": 9,
+      "totalCredits": 21,
+      "status": "Passed",
+      "year": "2024"
+    },
+    {
+      "id": "res5",
+      "student": "Vikram Joshi",
+      "rollNo": "CSE2020-003",
+      "semester": "Semester 7",
+      "sgpa": 8.5,
+      "totalCredits": 20,
+      "status": "Passed",
+      "year": "2024"
+    },
+    {
+      "id": "res6",
+      "student": "Kavya Iyer",
+      "rollNo": "CSE2022-030",
+      "semester": "Semester 3",
+      "sgpa": 6.8,
+      "totalCredits": 21,
+      "status": "Passed",
+      "year": "2024"
+    }
+  ],
+  "fees": [
+    {
+      "id": "fe1",
+      "student": "Aarav Mehta",
+      "rollNo": "CSE2021-001",
+      "semester": "Semester 2",
+      "totalFee": 75000,
+      "paid": 75000,
+      "due": 0,
+      "status": "Paid",
+      "paidDate": "2025-01-10",
+      "mode": "Online"
+    },
+    {
+      "id": "fe2",
+      "student": "Diya Sharma",
+      "rollNo": "CSE2022-015",
+      "semester": "Semester 2",
+      "totalFee": 75000,
+      "paid": 75000,
+      "due": 0,
+      "status": "Paid",
+      "paidDate": "2025-01-15",
+      "mode": "Online"
+    },
+    {
+      "id": "fe3",
+      "student": "Rohan Patel",
+      "rollNo": "ECE2021-008",
+      "semester": "Semester 2",
+      "totalFee": 72000,
+      "paid": 0,
+      "due": 72000,
+      "status": "Pending",
+      "paidDate": "",
+      "mode": ""
+    },
+    {
+      "id": "fe4",
+      "student": "Ishita Gupta",
+      "rollNo": "CE2024-011",
+      "semester": "Semester 2",
+      "totalFee": 68000,
+      "paid": 34000,
+      "due": 34000,
+      "status": "Partial",
+      "paidDate": "2025-02-01",
+      "mode": "Cash"
+    },
+    {
+      "id": "fe5",
+      "student": "Kavya Iyer",
+      "rollNo": "CSE2022-030",
+      "semester": "Semester 2",
+      "totalFee": 75000,
+      "paid": 0,
+      "due": 75000,
+      "status": "Overdue",
+      "paidDate": "",
+      "mode": ""
+    },
+    {
+      "id": "fe6",
+      "student": "Aditya Singh",
+      "rollNo": "CSE2024-019",
+      "semester": "Semester 2",
+      "totalFee": 75000,
+      "paid": 0,
+      "due": 75000,
+      "status": "Pending",
+      "paidDate": "",
+      "mode": ""
+    },
+    {
+      "id": "fe7",
+      "student": "Sneha Kulkarni",
+      "rollNo": "ME2020-002",
+      "semester": "Semester 2",
+      "totalFee": 72000,
+      "paid": 72000,
+      "due": 0,
+      "status": "Paid",
+      "paidDate": "2025-01-20",
+      "mode": "DD"
+    },
+    {
+      "id": "fe8",
+      "student": "Pooja Rao",
+      "rollNo": "CE2021-014",
+      "semester": "Semester 2",
+      "totalFee": 68000,
+      "paid": 68000,
+      "due": 0,
+      "status": "Paid",
+      "paidDate": "2025-01-08",
+      "mode": "Online"
+    }
+  ],
+  "books": [
+    {
+      "id": "b1",
+      "title": "Introduction to Algorithms",
+      "isbn": "978-0262033848",
+      "author": "Thomas H. Cormen",
+      "category": "Computer Science",
+      "copies": 5,
+      "available": 3,
+      "status": "Available"
+    },
+    {
+      "id": "b2",
+      "title": "Database System Concepts",
+      "isbn": "978-0078022159",
+      "author": "Abraham Silberschatz",
+      "category": "Computer Science",
+      "copies": 4,
+      "available": 2,
+      "status": "Available"
+    },
+    {
+      "id": "b3",
+      "title": "Computer Networking: A Top-Down Approach",
+      "isbn": "978-0133594140",
+      "author": "James Kurose",
+      "category": "Computer Science",
+      "copies": 3,
+      "available": 0,
+      "status": "All Issued"
+    },
+    {
+      "id": "b4",
+      "title": "Signals and Systems",
+      "isbn": "978-0138147570",
+      "author": "Alan V. Oppenheim",
+      "category": "Electronics",
+      "copies": 4,
+      "available": 2,
+      "status": "Available"
+    },
+    {
+      "id": "b5",
+      "title": "Engineering Thermodynamics",
+      "isbn": "978-8131795627",
+      "author": "P.K. Nag",
+      "category": "Mechanical",
+      "copies": 6,
+      "available": 4,
+      "status": "Available"
+    },
+    {
+      "id": "b6",
+      "title": "Design of Concrete Structures",
+      "isbn": "978-9339205041",
+      "author": "Arthur H. Nilson",
+      "category": "Civil Engineering",
+      "copies": 3,
+      "available": 1,
+      "status": "Available"
+    },
+    {
+      "id": "b7",
+      "title": "Machine Learning",
+      "isbn": "978-1259096952",
+      "author": "Tom M. Mitchell",
+      "category": "Computer Science",
+      "copies": 2,
+      "available": 0,
+      "status": "All Issued"
+    },
+    {
+      "id": "b8",
+      "title": "Operating System Concepts",
+      "isbn": "978-1118063330",
+      "author": "Abraham Silberschatz",
+      "category": "Computer Science",
+      "copies": 5,
+      "available": 3,
+      "status": "Available"
+    },
+    {
+      "id": "b9",
+      "title": "Electric Machinery Fundamentals",
+      "isbn": "978-0073380465",
+      "author": "Stephen Chapman",
+      "category": "Electrical",
+      "copies": 3,
+      "available": 2,
+      "status": "Available"
+    },
+    {
+      "id": "b10",
+      "title": "Software Engineering: A Practitioner Approach",
+      "isbn": "978-0078022128",
+      "author": "Roger Pressman",
+      "category": "Computer Science",
+      "copies": 4,
+      "available": 2,
+      "status": "Available"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat1",
+      "name": "Computer Science",
+      "code": "CS",
+      "bookCount": 6,
+      "status": "Active"
+    },
+    {
+      "id": "cat2",
+      "name": "Electronics",
+      "code": "EC",
+      "bookCount": 1,
+      "status": "Active"
+    },
+    {
+      "id": "cat3",
+      "name": "Mechanical",
+      "code": "ME",
+      "bookCount": 1,
+      "status": "Active"
+    },
+    {
+      "id": "cat4",
+      "name": "Civil Engineering",
+      "code": "CE",
+      "bookCount": 1,
+      "status": "Active"
+    },
+    {
+      "id": "cat5",
+      "name": "Electrical",
+      "code": "EE",
+      "bookCount": 1,
+      "status": "Active"
+    },
+    {
+      "id": "cat6",
+      "name": "Mathematics",
+      "code": "MATH",
+      "bookCount": 0,
+      "status": "Active"
+    },
+    {
+      "id": "cat7",
+      "name": "Physics",
+      "code": "PHY",
+      "bookCount": 0,
+      "status": "Active"
+    },
+    {
+      "id": "cat8",
+      "name": "Management",
+      "code": "MGM",
+      "bookCount": 0,
+      "status": "Active"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann1",
+      "title": "End Semester Exam Schedule Released",
+      "content": "The end semester examination schedule for Semester 2 has been released.",
+      "priority": "High",
+      "target": "All",
+      "postedBy": "Admin",
+      "date": "2025-04-14",
+      "status": "Active"
+    },
+    {
+      "id": "ann2",
+      "title": "Annual Sports Meet Registration",
+      "content": "Registration for the Annual Sports Meet 2025 is now open.",
+      "priority": "Medium",
+      "target": "Students",
+      "postedBy": "Admin",
+      "date": "2025-04-12",
+      "status": "Active"
+    },
+    {
+      "id": "ann3",
+      "title": "Faculty Development Program",
+      "content": "A three-day FDP on AI and ML will be conducted from April 25-27.",
+      "priority": "Medium",
+      "target": "Faculty",
+      "postedBy": "Dr. Ramesh Kumar",
+      "date": "2025-04-10",
+      "status": "Active"
+    },
+    {
+      "id": "ann4",
+      "title": "Library Timing Change",
+      "content": "Central library will remain open until 10 PM during exam period.",
+      "priority": "Low",
+      "target": "All",
+      "postedBy": "Librarian",
+      "date": "2025-04-08",
+      "status": "Active"
+    },
+    {
+      "id": "ann5",
+      "title": "Fee Payment Deadline Extended",
+      "content": "Last date for Semester 2 fee payment extended to April 30, 2025.",
+      "priority": "High",
+      "target": "Students",
+      "postedBy": "Admin",
+      "date": "2025-04-05",
+      "status": "Active"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n1",
+      "title": "Fee payment reminder",
+      "message": "Your Semester 2 fee payment is pending.",
+      "user": "Rohan Patel",
+      "type": "Fee",
+      "read": false,
+      "date": "2025-04-14 10:00:00"
+    },
+    {
+      "id": "n2",
+      "title": "Attendance shortage warning",
+      "message": "Your attendance in Computer Networks is below 75%.",
+      "user": "Kavya Iyer",
+      "type": "Attendance",
+      "read": false,
+      "date": "2025-04-14 09:30:00"
+    },
+    {
+      "id": "n3",
+      "title": "Exam hall ticket available",
+      "message": "Your hall ticket for End Semester Examination is ready.",
+      "user": "Aarav Mehta",
+      "type": "Exam",
+      "read": true,
+      "date": "2025-04-13 16:00:00"
+    },
+    {
+      "id": "n4",
+      "title": "Mark entry pending",
+      "message": "Pending mark entries for IA2 in DBMS.",
+      "user": "Ms. Neha Agarwal",
+      "type": "Marks",
+      "read": false,
+      "date": "2025-04-13 11:00:00"
+    },
+    {
+      "id": "n5",
+      "title": "HOD approval required",
+      "message": "Leave request from Mr. Rajesh Tiwari requires approval.",
+      "user": "Dr. Priya Sharma",
+      "type": "Authorization",
+      "read": false,
+      "date": "2025-04-13 09:00:00"
+    },
+    {
+      "id": "n6",
+      "title": "Book return overdue",
+      "message": "Book \"Computer Networking\" is overdue. Return immediately.",
+      "user": "Vikram Joshi",
+      "type": "Library",
+      "read": true,
+      "date": "2025-04-12 14:00:00"
+    }
+  ],
+  "loginHistory": [
+    {
+      "id": "lh1",
+      "user": "System Admin",
+      "email": "admin@collegeerp.com",
+      "ip": "192.168.1.100",
+      "device": "Chrome / Windows",
+      "time": "2025-04-14 09:30:00",
+      "status": "Success"
+    },
+    {
+      "id": "lh2",
+      "user": "Dr. Ramesh Kumar",
+      "email": "ramesh.k@college.edu",
+      "ip": "192.168.1.105",
+      "device": "Chrome / macOS",
+      "time": "2025-04-14 08:45:00",
+      "status": "Success"
+    },
+    {
+      "id": "lh3",
+      "user": "Aarav Mehta",
+      "email": "aarav.m@college.edu",
+      "ip": "10.0.0.55",
+      "device": "Safari / iOS",
+      "time": "2025-04-14 10:15:00",
+      "status": "Success"
+    },
+    {
+      "id": "lh4",
+      "user": "Unknown",
+      "email": "hacker@evil.com",
+      "ip": "45.33.32.156",
+      "device": "Firefox / Linux",
+      "time": "2025-04-14 03:22:00",
+      "status": "Failed"
+    },
+    {
+      "id": "lh5",
+      "user": "Dr. Priya Sharma",
+      "email": "priya.s@college.edu",
+      "ip": "192.168.1.108",
+      "device": "Chrome / Windows",
+      "time": "2025-04-14 07:50:00",
+      "status": "Success"
+    },
+    {
+      "id": "lh6",
+      "user": "Mr. Amit Verma",
+      "email": "amit.v@college.edu",
+      "ip": "192.168.1.112",
+      "device": "Edge / Windows",
+      "time": "2025-04-13 14:20:00",
+      "status": "Success"
+    },
+    {
+      "id": "lh7",
+      "user": "Diya Sharma",
+      "email": "diya.s@college.edu",
+      "ip": "10.0.0.78",
+      "device": "Chrome / Android",
+      "time": "2025-04-13 16:30:00",
+      "status": "Success"
+    },
+    {
+      "id": "lh8",
+      "user": "System Admin",
+      "email": "admin@collegeerp.com",
+      "ip": "192.168.1.100",
+      "device": "Chrome / Windows",
+      "time": "2025-04-13 09:10:00",
+      "status": "Success"
+    },
+    {
+      "id": "lh9",
+      "user": "Unknown",
+      "email": "test@test.com",
+      "ip": "103.21.44.78",
+      "device": "Python/Requests",
+      "time": "2025-04-13 02:15:00",
+      "status": "Failed"
+    },
+    {
+      "id": "lh10",
+      "user": "Sneha Kulkarni",
+      "email": "sneha.k@college.edu",
+      "ip": "10.0.0.92",
+      "device": "Chrome / macOS",
+      "time": "2025-04-12 11:45:00",
+      "status": "Success"
+    }
+  ],
+  "hodAuth": [
+    {
+      "id": "ha1",
+      "type": "Leave Request",
+      "requestedBy": "Mr. Rajesh Tiwari",
+      "department": "ECE",
+      "details": "Medical Leave - 3 days (April 18-20)",
+      "status": "Pending",
+      "requestDate": "2025-04-13"
+    },
+    {
+      "id": "ha2",
+      "type": "Mark Moderation",
+      "requestedBy": "Ms. Neha Agarwal",
+      "department": "CSE",
+      "details": "Request to moderate marks for DBMS Mid-Sem for student Kavya Iyer",
+      "status": "Pending",
+      "requestDate": "2025-04-12"
+    },
+    {
+      "id": "ha3",
+      "type": "Equipment Purchase",
+      "requestedBy": "Mr. Deepak Mishra",
+      "department": "ME",
+      "details": "Request for 10 digital calipers worth Rs.45,000",
+      "status": "Approved",
+      "requestDate": "2025-04-10"
+    },
+    {
+      "id": "ha4",
+      "type": "Leave Request",
+      "requestedBy": "Ms. Kavita Reddy",
+      "department": "CSE",
+      "details": "Casual Leave - 1 day (April 16)",
+      "status": "Approved",
+      "requestDate": "2025-04-09"
+    },
+    {
+      "id": "ha5",
+      "type": "Course Modification",
+      "requestedBy": "Mr. Amit Verma",
+      "department": "CSE",
+      "details": "Add practical component to Software Engineering course",
+      "status": "Rejected",
+      "requestDate": "2025-04-05"
+    }
+  ]
+}

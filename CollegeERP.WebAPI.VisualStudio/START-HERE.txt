@@ -1,0 +1,33 @@
+COLLEGE ERP - ASP.NET CORE WEB API (VISUAL STUDIO)
+==================================================
+
+This is ONE ASP.NET Core Web API project.
+It is NOT Docker and NOT microservices.
+
+FASTEST WAY TO RUN
+------------------
+1. Install Visual Studio 2022.
+2. During installation, select:
+   ASP.NET and web development
+3. Extract this ZIP.
+4. Double-click: CollegeERP.WebAPI.sln
+5. In Solution Explorer, right-click CollegeERP.Api.
+6. Click Set as Startup Project.
+7. Press Ctrl+F5 or click the green HTTPS button.
+8. Swagger opens automatically.
+
+API addresses:
+- HTTP:  http://localhost:5158/swagger
+- HTTPS: https://localhost:7158/swagger
+
+No database installation is needed.
+The API uses SQLite and creates collegeerp.db automatically.
+
+Demo login:
+Email: admin@collegeerp.com
+Password: admin123
+
+React .env:
+VITE_API_URL=http://localhost:5158/api
+
+Read VISUAL-STUDIO-SETUP.md for full instructions.

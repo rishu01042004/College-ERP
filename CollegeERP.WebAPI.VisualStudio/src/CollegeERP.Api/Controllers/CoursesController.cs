@@ -1,0 +1,13 @@
+using CollegeERP.Api.Data; using CollegeERP.Api.DTOs; using CollegeERP.Api.Extensions; using CollegeERP.Api.Models;
+using Microsoft.AspNetCore.Authorization; using Microsoft.AspNetCore.Mvc; using Microsoft.EntityFrameworkCore;
+namespace CollegeERP.Api.Controllers;
+[ApiController, Route("api/courses"), Authorize(Roles="Admin,Principal")]
+public sealed class CoursesController(AppDbContext db) : ControllerBase
+{
+    [HttpGet] public async Task<ActionResult<PagedResult<CourseDto>>> Get([FromQuery] EntityQueryParameters p, CancellationToken ct)
+    { var q=db.Courses.AsNoTracking().AsQueryable(); if(!string.IsNullOrWhiteSpace(p.Search))q=q.Where(x=>x.Name.Contains(p.Search)||x.Code.Contains(p.Search)); if(!string.IsNullOrWhiteSpace(p.Department))q=q.Where(x=>x.Department.Code==p.Department); if(!string.IsNullOrWhiteSpace(p.Status))q=q.Where(x=>x.Status==p.Status); return Ok(await q.OrderBy(x=>x.Name).Select(x=>new CourseDto(x.Id,x.Name,x.Code,x.Department.Code,x.Duration,x.TotalSeats,x.Status)).ToPagedResultAsync(p.Page,p.PageSize,ct)); }
+    [HttpGet("{id:guid}")] public async Task<ActionResult<CourseDto>> GetById(Guid id,CancellationToken ct){var x=await db.Courses.AsNoTracking().Where(x=>x.Id==id).Select(x=>new CourseDto(x.Id,x.Name,x.Code,x.Department.Code,x.Duration,x.TotalSeats,x.Status)).FirstOrDefaultAsync(ct);return x is null?NotFound():Ok(x);}
+    [HttpPost] public async Task<ActionResult<CourseDto>> Create(CourseUpsertDto d,CancellationToken ct){var dep=await db.Departments.FirstOrDefaultAsync(x=>x.Code==d.Department,ct);if(dep is null)return BadRequest(new ApiMessage("Department code is invalid."));var x=new Course{Name=d.Name.Trim(),Code=d.Code.Trim().ToUpperInvariant(),Department=dep,Duration=d.Duration,TotalSeats=d.TotalSeats,Status=d.Status};db.Courses.Add(x);await db.SaveChangesAsync(ct);return CreatedAtAction(nameof(GetById),new{id=x.Id},new CourseDto(x.Id,x.Name,x.Code,dep.Code,x.Duration,x.TotalSeats,x.Status));}
+    [HttpPut("{id:guid}")] public async Task<ActionResult> Update(Guid id,CourseUpsertDto d,CancellationToken ct){var x=await db.Courses.FindAsync([id],ct);var dep=await db.Departments.FirstOrDefaultAsync(a=>a.Code==d.Department,ct);if(x is null)return NotFound();if(dep is null)return BadRequest(new ApiMessage("Department code is invalid."));x.Name=d.Name.Trim();x.Code=d.Code.Trim().ToUpperInvariant();x.Department=dep;x.Duration=d.Duration;x.TotalSeats=d.TotalSeats;x.Status=d.Status;await db.SaveChangesAsync(ct);return NoContent();}
+    [HttpDelete("{id:guid}")] public async Task<ActionResult> Delete(Guid id,CancellationToken ct){var x=await db.Courses.FindAsync([id],ct);if(x is null)return NotFound();db.Courses.Remove(x);await db.SaveChangesAsync(ct);return NoContent();}
+}

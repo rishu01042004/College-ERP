@@ -1,0 +1,34 @@
+@host = http://localhost:5158
+@token = PASTE_TOKEN_HERE
+
+### Health
+GET {{host}}/health
+
+### Login
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@collegeerp.com",
+  "password": "admin123"
+}
+
+### Current user
+GET {{host}}/api/auth/me
+Authorization: Bearer {{token}}
+
+### Dashboard
+GET {{host}}/api/dashboard
+Authorization: Bearer {{token}}
+
+### Departments
+GET {{host}}/api/departments?page=1&pageSize=20&search=
+Authorization: Bearer {{token}}
+
+### Students
+GET {{host}}/api/students?page=1&pageSize=20&department=CSE
+Authorization: Bearer {{token}}
+
+### Attendance
+GET {{host}}/api/attendance?page=1&pageSize=20
+Authorization: Bearer {{token}}
