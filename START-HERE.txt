@@ -1,0 +1,17 @@
+COLLEGE ERP FULL-STACK START
+
+1) Start backend:
+   Open backend/CollegeERP.WebAPI.sln in Visual Studio.
+   Set CollegeERP.Api as Startup Project.
+   Select the http profile and press Ctrl+F5.
+   Swagger: http://localhost:5158/swagger
+
+2) Start React:
+   Open frontend in VS Code terminal.
+   npm install
+   npm run dev
+   Browser: http://localhost:5173
+
+3) Login:
+   admin@collegeerp.com
+   admin123
